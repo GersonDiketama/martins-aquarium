@@ -5,17 +5,18 @@ const fishCollection = [
     {
         name: "Bart",
         food: "Crustaceans",
-        images: "blue.jpg",
+        image: "15.jpg",
         species: "tigger",
         length: 7,
         waterType: "salt",
         harvestLoaction: "Florida"
     },
 
+
     {
         name: "Bart",
         food: "Crustaceans",
-        images: "blue.jpg",
+        image: "15.jpg",
         species: "tigger",
         length: 7,
         waterType: "salt",
@@ -26,7 +27,7 @@ const fishCollection = [
     {
         name: "Nemo",
         food: "Goldfish",
-        image: "blue.jpg",
+        image: "3.jpg",
         species: "Clown",
         length: 3,
         waterType: "Salt-water",
@@ -37,7 +38,7 @@ const fishCollection = [
     {
         name: "Don Julio",
         food: "snails",
-        image: "stingray.jpg",
+        image: "4.jpg",
         species: "Stingray",
         length: 9,
         waterType: "Salt",
@@ -47,9 +48,10 @@ const fishCollection = [
 
 
     {
-        image: "fish.jpg",
+        
         name: "Eleanor",
         species: "Angler",
+        image: "5.jpg",
         length: 5,
         harvestLocation: "North Carolina",
         waterType: "Fresh",
@@ -60,7 +62,7 @@ const fishCollection = [
     {
         name: "Jeff",
         food: "Forage Fish",
-        image: "green.jpg",
+        image: "6.jpg",
         species: "Bluefish",
         length: 3,
         waterType: "Salt",
@@ -72,7 +74,7 @@ const fishCollection = [
     {
         name: "Karen",
         food: "Algae",
-        image: "yellow.jpg",
+        image: "7.png",
         species: "Siamese algae eater",
         length: 5,
         waterType: "salt", 
@@ -84,7 +86,7 @@ const fishCollection = [
     {
         name: "Robin Gilliams",
         food: "Bee Moths",
-        image: "orange.jpg",
+        image: "8.jpg",
         species: "Clownfish",
         length: 2,
         waterType: "Salt",
@@ -92,48 +94,10 @@ const fishCollection = [
     },
 
 
-
-
-
-    {
-        name: "Three-Eyed Fish",
-        food: "worms",
-        image: "orange.jpg",
-        species: "Fictional",
-        length: 5,
-        waterType: "Salt-water",
-        harvestLocation: "Ohio"
-
-    },
-
-
-    {
-        name: "doctor fish",
-        diet: "biofilm ",
-        image: "green.jpg",
-        species: "Tinca tinca",
-        length: 3.9,
-        waterType: "Fresh Water",
-        harvestLocation: "Massachusetts "
-        
-    },
-
-
-    {
-        name: "Bruce",
-        food: "not fish",
-        image: "bruce.jpg",
-        species: "greatWhite",
-        length: 130,
-        waterType: "salt",
-        harvestLocation: "Sydney"
-    },
-
-
     {
         name: "Gordon",
         food: "Krill",
-        image: "pink.jpg",
+        image: "12.jpg",
         species: "Blowfish",
         length: 3,
         waterType: "Salt",
@@ -144,7 +108,7 @@ const fishCollection = [
     {
         name: "Bloat",
         food: "shrimp",
-        image: "yellow.jpg",
+        image: "13.jpg",
         species: "Blow Fish",
         length: 5,
         waterType: "Salt",
@@ -156,7 +120,7 @@ const fishCollection = [
     {
         name: "Marlin",
         food: "Mealworms",
-        image: "orange.jpg",
+        image: "14.jpg",
         species: "clownfish",
         length: 4,
         waterType: "Saltwater",
@@ -166,7 +130,7 @@ const fishCollection = [
 
    {    name: "Ted",
         food: "Perch",
-        image: ".jpeg",
+        image: "15.jpg",
         species: "Tiger Trout",
         length: 14,
         waterType: "Fresh",
