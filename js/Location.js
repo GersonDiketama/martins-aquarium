@@ -43,6 +43,7 @@ export const loop = () =>
     const accessHTML = document.querySelector('.collection-location')
     const loopThroughtArray = places()
 
+    //CREATES A VARIABLE AND ASSIGN ALL THE LOCATIONS LOOP TO THE VARIABLE
     let lastLoca = ""
 
     for(const lp of loopThroughtArray)
