@@ -2,7 +2,7 @@
 /* @import "tips.css"; */
 
 body {
-	background-color: darkcyan;
+	background-color: antiquewhite;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 }
@@ -10,7 +10,7 @@ body {
 header {
 	display: flex;
 	text-align: center;
-	background-color: lightgoldenrodyellow;
+	background-color: aqua;
     z-index: 1;
     
 }
@@ -126,7 +126,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
 .location
@@ -136,7 +136,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
 .collection-location
@@ -154,10 +154,11 @@ footer {
 .Martins-Aside
 {
     right: 0;
-    top: 0;
+    top: 10%;
     width: 14.7%;
     height: 100%;
-    position: fixed;
+    position: absolute;
     z-index: -1;
-    background-color: rgba(225, 241, 237, 0.397);
+    background-color: antiquewhite;
+    
 }
