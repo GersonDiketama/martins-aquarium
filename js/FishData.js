@@ -136,10 +136,37 @@ const fishCollection = [
         waterType: "Fresh",
         harvestLocation: "North America"
 }
+,
 
+
+{    name: "Ted",
+food: "Perch",
+image: "15.jpg",
+species: "Tiger Trout",
+length: 14,
+waterType: "Fresh",
+harvestLocation: "North America"
+}
+
+
+,
+
+{    name: "Ted",
+food: "Perch",
+image: "15.jpg",
+species: "Tiger Trout",
+length: 14,
+waterType: "Fresh",
+harvestLocation: "North America"
+}
 
 
 ]
+
+
+
+
+
 
 
 export const getFish = () =>
@@ -182,7 +209,7 @@ export const getSoldierFish = () =>
     {
         if(strongSniperFish.length % 3 ===0)
         {
-            strongSniperFish.push(soldierFishes)
+            soldierFishes.push(strongSniperFish)
         }
     }
 
@@ -199,7 +226,7 @@ export const unWorthyFish = () =>
 
     for(const onSalesFishes of fishCollection)
     {
-        if((onSalesFishes.length % 3) !==0 && (onSalesFishes.length % 5) !== 0)
+        if(onSalesFishes.length % 3 !==0 || onSalesFishes.length % 5 !== 0)
         {
             notImportantFishes.push(onSalesFishes)
         }
