@@ -7,7 +7,7 @@ const fishCollection = [
         food: "Crustaceans",
         image: "15.jpg",
         species: "tigger",
-        length: 7,
+        length: 3,
         waterType: "salt",
         harvestLoaction: "Florida"
     },
@@ -18,7 +18,7 @@ const fishCollection = [
         food: "Crustaceans",
         image: "15.jpg",
         species: "tigger",
-        length: 7,
+        length: 20,
         waterType: "salt",
         harvestLoaction: "Florida"
     },
@@ -52,7 +52,7 @@ const fishCollection = [
         name: "Eleanor",
         species: "Angler",
         image: "5.jpg",
-        length: 5,
+        length: 15,
         harvestLocation: "North Carolina",
         waterType: "Fresh",
         diet: "everything"
@@ -64,7 +64,7 @@ const fishCollection = [
         food: "Forage Fish",
         image: "6.jpg",
         species: "Bluefish",
-        length: 3,
+        length: 25,
         waterType: "Salt",
         harvestLocation: "Australia"
     },
@@ -88,7 +88,7 @@ const fishCollection = [
         food: "Bee Moths",
         image: "8.jpg",
         species: "Clownfish",
-        length: 2,
+        length: 7,
         waterType: "Salt",
         harvestLocation: "Mexico"
     },
@@ -110,7 +110,7 @@ const fishCollection = [
         food: "shrimp",
         image: "13.jpg",
         species: "Blow Fish",
-        length: 5,
+        length: 30,
         waterType: "Salt",
         harvestLocation: "Mexico"
     },
@@ -145,4 +145,65 @@ const fishCollection = [
 export const getFish = () =>
 {
     return fishCollection;
+}
+
+
+
+
+
+
+
+ export const returnEvenNumbers = () =>
+{
+
+    const arrayOfFishes = [];
+
+    for(const tacoTuesday of fishCollection)
+    {
+        if(tacoTuesday.length % 3 === 0)
+        {
+            arrayOfFishes.push(tacoTuesday);
+        }
+    }
+
+    return arrayOfFishes
+}
+
+
+
+
+
+
+export const getSoldierFish = () =>
+{
+    const soldierFishes = [];
+
+    for(const strongSniperFish of fishCollection)
+    {
+        if(strongSniperFish.length % 3 ===0)
+        {
+            strongSniperFish.push(soldierFishes)
+        }
+    }
+
+    return soldierFishes
+}
+
+
+
+
+
+export const unWorthyFish = () =>
+{
+    const notImportantFishes = [];
+
+    for(const onSalesFishes of fishCollection)
+    {
+        if((onSalesFishes.length % 3) !==0 && (onSalesFishes.length % 5) !== 0)
+        {
+            notImportantFishes.push(onSalesFishes)
+        }
+    }
+
+    return notImportantFishes
 }
